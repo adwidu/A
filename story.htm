@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="favicon.ico">
+        <title>Zeta dev team | Register site</title>
+    </head>
+    <body>
+        <script>
+            var xmlhttp;
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.open('GET', "storys.txt", false);
+            xmlhttp.send();
+            data = xmlhttp.responseText;
+            for (i = 0; i < data.length; i++) {
+                newdata = data.split(";")[i];
+                for (j = 0; j < newdata.length; j++) {
+                    document.getElementsByTagName("b")[0].innerHTML += "<p>at: " + newdata[0] + ", " + newdata[1] + ", " + newdata[2]+"title: " + newdata[3] +"</p><p>author: " + newdata[4]+"</p><p>" + newdata[5]+ "</p>";
+
+                }
+            }
+        </script>
+    </body>   
+</html>

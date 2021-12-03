@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="icon" href="favicon.ico">
+        <title>Zeta dev team | Main site</title>
+        <style>
+            .accountLogo {
+                position: relative;
+                top: -89px;
+                left: 2px;
+                height: 20px;
+                width: 20px;
+            }
+            .accountLogoC {
+                position:relative;
+                top: -66px;
+                width: 1371px;
+                height: 24px;
+                left:-1345px;
+                background: gray;
+            }
+            .bar {
+                position: relative;
+                top: -16px;
+                left: -10px;
+                width: 1350px;
+                border: 10px solid black;
+                height: 20px;
+                background-color: black;
+            }
+            .Proyects {
+                color: white;
+                position: absolute;
+                background-color: black;
+                top: -5px;
+                right: 0px;
+                font-size:medium;
+            }
+            .Games {
+                color: white;
+                position: absolute;
+                background-color: black;
+                top: -5px;
+                right: 130px;
+                font-size: medium;
+            }
+            .uploadButton {
+                color: white;
+                position: absolute;
+                background-color: black;
+                top: -5px;
+                right: 409px;
+                font-size: medium;
+            }
+            .storyButton {
+                color: white;
+                position: absolute;
+                background-color: black;
+                top: -5px;
+                right: 347px;
+                font-size: medium;
+            }
+            .Login {
+                color: white;
+                position: absolute;
+                background-color: black;
+                top: -5px;
+                right: 220px;
+                font-size: medium;
+            }
+            #accountText {
+                position: relative;
+                top: -125px;
+                color: white;
+                left: 30px;
+            }
+        </style>
+    </head>
+    <body class="body">
+
+        <!-- Task Bar -->
+        <p class="bar"></p>
+        <div class="accountLogoC"></div>
+
+
+        <img class="accountLogo" src="accountPlaceHolder.bmp" />
+        <p id="accountText">Guest</p>
+        <a href="pro.htm"><p class="Proyects">Current proyects</p></a>
+        <a href="https://store.steampowered.com/"><p class="Games">Game shop</p></a>
+        <a href="login.htm"><p class="Login">developers LogIn</p></a>
+        <a href="story.htm"><p class="storyButton">devlogs</p></a>
+
+        <!-- text things -->
+        <h1 style="position: relative; top: 50px">who are we?</h1>
+        <p style="position: relative; top: 60px">we're an indie enterprise which just want to make fun videogames.</p>
+
+        <h1 style="position: relative; top: 100px">yeah but, why?</h1>
+        <p style="position: relative; top: 110px;">we make games just for fun lol</p>
+        <script>
+
+            <!--
+            var username = window.location.href.split("account=")[1].split("&")[0];
+            var devmode = window.location.href.split("devmode=")[1];
+            if (username != "thevichusiuuu") {
+                document.getElementById("accountText").innerHTML = username;
+            }
+            else {
+                document.getElementById("accountText").innerHTML = "The Vichusiuuu";
+            }
+
+            if (devmode == "true" && (username == "adwidu" || username == "thevichusiuuu")) {
+                document.getElementsByTagName("body")[0].innerHTML += '<a href="upload.htm"><p class="uploadButton">upload a devlog</p></a>';
+            }
+            -->
+        </script>
+    </body>
+</html>
