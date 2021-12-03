@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zeta dev team | login site</title>
+    <noscript>This page is JavaScript dependent, please active it if you want to use this page</noscript>
+    <style>
+        Body {
+            font-family: Calibri, Helvetica, sans-serif;
+            background-color: white;
+        }
+
+        button {
+            background-color: #4CAF50;
+            width: 100%;
+            color: white;
+            padding: 15px;
+            margin: 10px 0px;
+            border: none;
+            cursor: pointer;
+        }
+
+        
+
+        input[type=text], input[type=password] {
+            width: 100%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 2px solid green;
+            box-sizing: border-box;
+        }
+
+        button:hover {
+            opacity: 0.7;
+        }
+
+        .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            margin: 10px 5px;
+        }
+
+
+        .container {
+            padding: 25px;
+            background-color: white;
+        }
+        
+    </style>
+    
+</head>
+<body class="body">
+    <p style="position: relative; top: -16px; left: -10px; width: 8000px; border: 0px solid black; height: 40px; background-color: black;"></p>
+    <a href="Main.htm" style="position: relative; height: 10px; left: -591px; ">
+        <p style="position: relative; top: -59px; left: -600px; color: white; text-align: end;">←  Back to Main page</p>
+    </a>
+    <center> <h1> Login Form </h1> </center>
+    <form>
+        <div class="container">
+            <label>Username : </label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>Password : </label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit">Login</button>
+            <p>Forgot <a href="password.htm"> password? </a></p>
+        </div>
+    </form>
+    <script>
+        <!--
+
+        var username = window.location.href.split("username=")[1].split("&")[0];
+        var password = window.location.href.split("password=")[1];
+        if (username.split("+").length > 1) {
+            alert("invalid name")
+            username = ""
+            // quiero terminar el script aqui, pero no se como xD
+            throw new Error();
+        }
+        if (username == "adwidu") {
+            if (password == "david2005") {
+                link = "account=adwidu&devmode=true";
+            }
+        }
+        if (username.toLowerCase() == "thevichusiuuu") {
+            if (password == "Zeta2021") {
+                link = "account=thevichusiuuu&devmode=true";
+            }
+        }
+        document.getElementsByTagName("a")[0].setAttribute("href", "main.htm?" + link);
+        -->
+    </script>
+</body>
+</html>  
